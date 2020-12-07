@@ -44,7 +44,7 @@
 	"postCreateCommand": "bash postCreate.sh",
 
 	// Use postAttachCommand to run commands after the user is connected
-	"postAttachCommand": "cd backend && python manage.py migrate && echo 'Ac0mPl3xP@55w0rd' | python manage.py createsuperuser --username admin --email a@a.com --noinput && python manage.py loaddata avatars"
+	"postAttachCommand": "cd backend && python manage.py migrate && echo 'Ac0mPl3xP@55w0rd' | python manage.py createsuperuser --username admin --email a@a.com --noinput && python manage.py loaddata avatars",
 	
 	// Comment out connect as root instead. More info: https://aka.ms/vscode-remote/containers/non-root.
 	"remoteUser": "vscode"
