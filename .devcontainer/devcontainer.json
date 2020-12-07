@@ -41,7 +41,7 @@
 	// "forwardPorts": [],
 
 	// Use 'postCreateCommand' to run commands after the container is created.
-	"postCreateCommand": "bash postCreate.sh",
+	"postCreateCommand": "bash .devcontainer/postCreate.sh",
 
 	// Use postAttachCommand to run commands after the user is connected
 	"postAttachCommand": "cd backend && python manage.py migrate && echo 'Ac0mPl3xP@55w0rd' | python manage.py createsuperuser --username admin --email a@a.com --noinput && python manage.py loaddata avatars",
